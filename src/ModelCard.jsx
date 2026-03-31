@@ -25,7 +25,7 @@ const Modelcard = ({model,carts,setCarts}) => {
                    <h2 className='font-bold text-2xl'>${model.price}/month</h2>
                    <p className='text-blue-500 font-bold '>{model.status}</p>
                 </div>
-                <button onClick={handleSubscription} className='btn w-full bg-amber-700 mt-5'>{isSubscribe ? "Subscribed" : "Subscribe now"}</button>
+                <button onClick={handleSubscription} className='btn w-full bg-blue-700 mt-5 text-white'>{isSubscribe ? "Added to card" : "Buy now"}</button>
                 </div>
                 
   )
